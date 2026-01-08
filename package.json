@@ -1,0 +1,16 @@
+{
+  "name": "wahscript",
+  "version": "1.0.0",
+  "description": "WahScript - A language that compiles to JavaScript",
+  "main": "src/index.js",
+  "bin": {
+    "wahscript": "./bin/wahscript.js",
+    "wsc": "./bin/wahscript.js"
+  },
+  "scripts": {
+    "compile": "node bin/wahscript.js",
+    "test": "node bin/wahscript.js examples/demo.ws -o examples/demo.js && node examples/demo.js"
+  },
+  "keywords": ["wahscript", "compiler", "transpiler"],
+  "license": "MIT"
+}
