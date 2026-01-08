@@ -43,7 +43,9 @@ main()
 ## Install
 
 ```bash
-npm link
+git clone https://github.com/zt3xdv/wahscript.git
+cd wahscript
+npm install -g .
 ```
 
 ## Usage
